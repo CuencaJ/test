@@ -24,7 +24,7 @@ function guardarLibros(libros) {
 
 // Endpoint raíz
 app.get('/', (req, res) => {
-    res.json({ mensaje: 'API de Biblioteca funcionando', estado: 'OK' });
+    res.json({ mensaje: 'API de Biblioteca no estable', estado: 'OK' });
 });
 
 // Obtener todos los libros
