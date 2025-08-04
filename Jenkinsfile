@@ -16,6 +16,7 @@ pipeline {
         stage('Ejecutar tests') {
             steps {
                 sh 'chmod +x ./node_modules/.bin/jest'
+                sh 'npm test'
             }
         }
 
